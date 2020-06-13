@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.22.2",
+    "babel-preset-node6": "^11.0.0",
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "cron-master": "^1.0.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-validator": "^3.2.1",
+    "forever": "^1.0.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.9",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.19.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "request": "^2.79.0"
+  },
+  "scripts": {
+    "start": "node ./node_modules/babel-cli/bin/babel-node.js --presets node6 ./server.js",
+    "nodemon": "nodemon ./node_modules/babel-cli/bin/babel-node.js --presets node6 ./server.js",
+    "test": "nodemon ./node_modules/babel-cli/bin/babel-node.js --presets node6 ./server.js"
+  },
+  "description": "This service is for node-js demo app",
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "np",
+  "license": "ISC"
+}
